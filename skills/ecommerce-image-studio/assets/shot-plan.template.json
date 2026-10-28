@@ -1,0 +1,75 @@
+{
+  "sku": null,
+  "platform": null,
+  "placement": null,
+  "market": null,
+  "language": "es-ES",
+  "identity_lock": {
+    "shape": null,
+    "color": null,
+    "material": null,
+    "branding": null,
+    "controls_ports": null,
+    "included_items": null,
+    "unknowns": []
+  },
+  "style_lock": {
+    "lighting": null,
+    "palette": null,
+    "typography": null,
+    "layout_family": null
+  },
+  "claims": [
+    {
+      "claim_id": "c01",
+      "fact_ids": [],
+      "buyer_benefit": null,
+      "conditions": null,
+      "visual_proof": null,
+      "forbidden_inferences": []
+    }
+  ],
+  "shots": [
+    {
+      "slot": "01-main",
+      "role": "main",
+      "source": null,
+      "buyer_question": "实际买到什么？",
+      "claim_ids": [],
+      "visual_proof": null,
+      "composition": null,
+      "copy": {
+        "headline": null,
+        "support": null,
+        "qualifier": null
+      },
+      "layout": null,
+      "profile": null,
+      "requested_size": [
+        2048,
+        2048
+      ],
+      "acceptance": [],
+      "prompt": null,
+      "status": "planned",
+      "output": null,
+      "clean_output": null,
+      "actual_size": null,
+      "attempts": 0,
+      "qa": null,
+      "fact_ids": [],
+      "product_revision": null,
+      "identity_lock_snapshot": null,
+      "new_information": null
+    }
+  ],
+  "missing_evidence": [],
+  "uncompleted_slots": [],
+  "product_record": {
+    "path": null,
+    "record_id": null,
+    "revision": null
+  },
+  "category": null,
+  "category_rationale": null
+}
