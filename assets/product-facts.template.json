@@ -1,0 +1,29 @@
+{
+  "record_id": null,
+  "revision": 1,
+  "sku": null,
+  "variant": null,
+  "category": null,
+  "sources": [],
+  "evidence": [],
+  "identity": {
+    "shape_proportions": {"value": null, "status": "unknown", "evidence_ids": []},
+    "color": {"value": null, "status": "unknown", "evidence_ids": []},
+    "material": {"value": null, "status": "unknown", "evidence_ids": []},
+    "branding_positions": {"value": null, "status": "unknown", "evidence_ids": []},
+    "visible_structure_ports_controls": {"value": null, "status": "unknown", "evidence_ids": []}
+  },
+  "facts": [],
+  "sale_contents": {"quantity": null, "included_items": [], "not_included_items": [], "status": "unknown", "evidence_ids": []},
+  "identity_lock": null,
+  "do_not_change": [],
+  "conflicts": [],
+  "unknowns": [],
+  "change_log": [],
+  "field_examples_not_product_facts": {
+    "source": {"source_id": "s01", "reference": null, "sha256": null, "source_kind": "photo_observation"},
+    "evidence": {"evidence_id": "e01", "source_id": "s01", "region": null, "observation": null},
+    "fact": {"fact_id": "f01", "name": null, "value": null, "unit": null, "status": "unknown", "evidence_ids": [], "conditions": null},
+    "change": {"revision": null, "changed_fact_ids": [], "reason": null, "evidence_ids": []}
+  }
+}
