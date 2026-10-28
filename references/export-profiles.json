@@ -1,0 +1,321 @@
+{
+  "version": 2,
+  "checked_at": "2026-10-27",
+  "notice": "Targets are production defaults, not proof of platform compliance. See europe-channels.md and platform-rules.md for evidence scope.",
+  "profiles": {
+    "amazon-main": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "min_long": 500,
+      "max_long": 10000,
+      "recommended_short": 1500,
+      "coverage": [
+        0.85,
+        0.9
+      ],
+      "white": true,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG",
+        "TIFF",
+        "GIF"
+      ],
+      "policy_review": "site-category"
+    },
+    "shopify-pdp": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "recommended_short": 1500,
+      "max_long": 5000,
+      "max_pixels": 25000000,
+      "max_mb": 20,
+      "coverage": [
+        0.75,
+        0.9
+      ],
+      "white": true,
+      "opaque": true,
+      "policy_review": "theme-and-sales-channel"
+    },
+    "google-shopping": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "recommended_short": 1500,
+      "max_pixels": 64000000,
+      "max_mb": 16,
+      "coverage": [
+        0.75,
+        0.9
+      ],
+      "white": true,
+      "opaque": true,
+      "ai_metadata": true,
+      "policy_review": "effective-date-and-category"
+    },
+    "google-business": {
+      "target": [
+        720,
+        720
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "min_width": 250,
+      "min_height": 250,
+      "min_kb": 10,
+      "max_mb": 5,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "real-photo-no-significant-alterations"
+    },
+    "meta-catalog": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "recommended_short": 1024,
+      "max_mb": 8,
+      "white": true,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "official-access-limited-local-export-targets"
+    },
+    "facebook-feed": {
+      "target": [
+        1080,
+        1350
+      ],
+      "ratio": [
+        4,
+        5
+      ],
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "placement-access-limited-local-default"
+    },
+    "instagram-feed": {
+      "target": [
+        1080,
+        1350
+      ],
+      "ratio": [
+        4,
+        5
+      ],
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "placement-access-limited-local-default"
+    },
+    "social-story-cover": {
+      "target": [
+        1080,
+        1920
+      ],
+      "ratio": [
+        9,
+        16
+      ],
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "placement-ui-safe-zone"
+    },
+    "tiktok-shop": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "recommended_short": 800,
+      "white": true,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "country-real-photo-policy"
+    },
+    "tiktok-social": {
+      "target": [
+        1080,
+        1920
+      ],
+      "ratio": [
+        9,
+        16
+      ],
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "organic-placement-ui"
+    },
+    "tiktok-carousel-vertical": {
+      "target": [
+        720,
+        1280
+      ],
+      "ratio": [
+        9,
+        16
+      ],
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "standard-carousel-music-and-campaign-not-checked"
+    },
+    "pinterest-pin": {
+      "target": [
+        1000,
+        1500
+      ],
+      "ratio": [
+        2,
+        3
+      ],
+      "max_mb": 20,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "pin-type-and-ui"
+    },
+    "pinterest-catalog": {
+      "target": [
+        1000,
+        1500
+      ],
+      "ratio": [
+        2,
+        3
+      ],
+      "min_width": 1000,
+      "min_height": 1500,
+      "max_mb": 20,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "catalog-source-url-and-product-match"
+    },
+    "miravia-main": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "max_mb": 5,
+      "coverage": [
+        0.75,
+        0.9
+      ],
+      "white": true,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "seller-center-specs-unverified-local-targets"
+    },
+    "aliexpress-eu-main": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "max_mb": 5,
+      "coverage": [
+        0.75,
+        0.9
+      ],
+      "white": true,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "EU-specs-unverified-do-not-substitute-CIS"
+    },
+    "prestashop-pdp": {
+      "target": [
+        2048,
+        2048
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "recommended_short": 1500,
+      "coverage": [
+        0.75,
+        0.9
+      ],
+      "white": true,
+      "opaque": true,
+      "formats": [
+        "JPEG",
+        "PNG"
+      ],
+      "policy_review": "version-theme-image-types-upload-limits-and-sales-channel"
+    },
+    "transparent-product": {
+      "transparent": true,
+      "formats": [
+        "PNG"
+      ],
+      "policy_review": "design-asset-alpha-edge-and-product-fidelity-review-not-white-main"
+    }
+  }
+}
