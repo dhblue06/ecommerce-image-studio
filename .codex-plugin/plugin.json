@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-image-studio",
+  "version": "1.0.0",
+  "description": "Evidence-based product images for European ecommerce: white backgrounds, transparent PNGs and selling-point image sets.",
+  "author": {
+    "name": "dhblue06"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "电商图片工作室",
+    "shortDescription": "生成产品白底图、透明图及有据卖点电商套图",
+    "longDescription": "根据参考照片锁定产品型号、颜色与结构，生成产品和包装独立白底图、真实透明PNG、卖点及场景套图，并按欧洲电商渠道检查。需要宿主提供图片生成或编辑工具；不包含listing、网站同步或独立图像服务。",
+    "developerName": "dhblue06",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "根据参考图生成产品和包装白底图，分开输出两张。",
+      "根据产品照片与有据卖点生成适合PrestaShop的西语电商套图。"
+    ]
+  }
+}
