@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-image-studio-marketplace",
+  "interface": {
+    "displayName": "电商图片工作室"
+  },
+  "plugins": [
+    {
+      "name": "ecommerce-image-studio",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
